@@ -1,4 +1,4 @@
-const topics = ['HTML', 'CSS', 'Git', 'JavaScript'];
+const topics = ['HTML', 'CSS', 'Git', 'JavaScript', 'Deployment'];
 const randomTopic = topics[Math.floor(Math.random() * topics.length)];
 
 function listTopics() {
@@ -16,6 +16,8 @@ function selectTopic() {
     console.log("Let's study Git!");
     } else if (randomTopic === 'JavaScript') {
     console.log("Let's study JavaScript!");
+    } else if (randomTopic === 'Deployment') {
+    console.log("Let's study Deployment!");
     } else {
     console.log('Please try again!');
     }
